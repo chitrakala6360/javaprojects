@@ -6,33 +6,24 @@ public class lab011
 {
     public static void main(String[] args) {
 
-        System.out.println("enter a two numbers");
+        System.out.println("enter a number");
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-        int b=sc.nextInt();
-        System.out.println("what operation do you want to perform");
-        char ch=sc.next().charAt(0);
-        int res;
-        switch(ch){
-            case '*':
-               res=a*b;
-               System.out.println("the result is " +res);
+        switch(a){
+            case 1:
+               System.out.println("mon");
                break;
-            case '+':
-                res=a+b;
-                System.out.println("the result is " +res);
+            case 2:
+                System.out.println("tue");
                 break;
-            case '/':
-                res=a/b;
-                System.out.println("the result is " +res);
+            case 3:
+                System.out.println("wed");
                 break;
-            case '%':
-                res=a%b;
-                System.out.println("the result is " +res);
+            case 4:
+                System.out.println("thur");
                 break;
-            case '-':
-                res=a-b;
-                System.out.println("the result is " +res);
+            case 5:
+                System.out.println("fri");
                 break;
             default :
                 System.out.println("we cannot perform this operation");
